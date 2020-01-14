@@ -195,6 +195,7 @@ function resetBonuses() {
     paddleWidth = 100;
     paddleSpeed = 7;
     balls.push({x: canvasGame.width / 2, y: canvasGame.height - 30, dx: 4, dy: -4, tdx: 4, tdy: -4});
+    normalDirection = true;
 }
 
 function keyDownHandler(e) {
